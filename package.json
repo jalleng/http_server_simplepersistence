@@ -1,0 +1,19 @@
+{
+  "name": "sea-d49-router",
+  "version": "0.1.0",
+  "description": "a simple http router",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalleng/http_server_simplepersistence.git"
+  },
+  "author": "jallengerber@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jalleng/http_server_simplepersistence/issues"
+  },
+  "homepage": "https://github.com/jalleng/http_server_simplepersistence#readme"
+}
