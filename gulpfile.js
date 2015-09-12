@@ -5,13 +5,13 @@ var jshint = require('gulp-jshint');
 var gulpMocha = require('gulp-mocha');
 
 gulp.task('jshint', function() {
-  return gulp.src(['server.js', 'gulpfile.js'])
-  .pipe(jshint())
-  .pipe(jshint.reporter('default'));
+    return gulp.src(['server.js', 'gulpfile.js', '/test/*'])
+    .pipe(jshint())
+    .pipe(jshint.reporter('default'));
 });
 
 gulp.task('test', function() {
-  return gulp.src('test/**/*test.js')
+    return gulp.src('test/**/*test.js')
     .pipe(gulpMocha());
 });
 
