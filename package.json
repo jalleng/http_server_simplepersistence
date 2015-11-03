@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/jalleng/http_server_simplepersistence/issues"
   },
-  "homepage": "https://github.com/jalleng/http_server_simplepersistence#readme"
+  "homepage": "https://github.com/jalleng/http_server_simplepersistence#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-http": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "mocha": "^2.3.2"
+  }
 }
